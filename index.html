@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title> My Website </title>
+        <style>
+          * {
+            box-sizing: border-box;
+          }
+          header {
+            background-color: lightblue;
+            text-align: center;
+            padding: 2px;
+            font-size: 25px;
+            color: white;
+            height: 22%;
+          }
+          nav {
+            float: left;
+            width: 20%;
+            height: 70%;
+            background: #fff;
+            padding: 20px;
+          }
+          nav ul {
+            list-style-type: none;
+            padding: 0;
+          }
+          article {
+            float: left;
+            padding: 20px;
+            width: 80%;
+            height: 70%;
+            background-color: #f1f1f1;
+          }
+          footer {
+            background-color: lightblue;
+            padding: 10px;
+            height: 8%;
+            text-align: center;
+            color: white;
+          }
+          section::after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h2>My Website</h2>
+        </header>
+        <section>
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Pertemuan 4</a></li>
+              <li><a href="#">Pertemuan 3</a></li>
+              <li><a href="#">Pertemuan 4</a></li>
+            </ul>
+          </nav>
+          <article>
+            <h1>Home</h1>
+            <p>Ini adalah halaman utama</p>
+          </article>
+        </section>
+        <footer>
+          <p>© Craft with love by BayuNigga</p>
+        </footer>
+    </body>
+</html>
